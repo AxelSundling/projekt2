@@ -1,0 +1,142 @@
+
+
+body,html {
+
+	background-color: #292929;
+}
+header {
+    background: black;
+    padding:inherit;
+    margin: auto;
+}
+nav {
+    display: inline-block;
+}
+nav ul li a {
+   font-family: sans-serif;
+    padding: 70px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+
+}
+nav a:hover {
+    height: 1px;
+	background: #ffea00;
+    
+    color: black;
+}
+nav ul li {
+    display: inline-block;
+    margin: 30px;
+}
+    
+main {
+	float: left;
+	width: 100%;
+    text-decoration-color: white;
+    font-family: sans-serif;
+}
+
+article {
+
+    border-bottom: 1px solid #ffea00;;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    color: white
+}
+article h2 {
+    font-weight:800;
+    margin-bottom: 12px;
+    
+}
+
+
+footer {
+	background: white;
+	max-width: 1000px;
+	margin: auto;
+	clear: both;
+	text-align: right;
+}
+footer p {
+	padding: 20px;
+}
+
+#logo {
+    font-family: Impact,  sans-serif;
+    display:inline-block;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 75px;
+    color: black;
+    background-color: #ffea00;
+    padding: 50px 10px;
+}
+#Rubrik{
+     background-image:url(../img/aiden-marples-Udu9NgiNFk8-unsplash.jpg);
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    height: 720px;
+    background-size: cover;
+}
+#RubrikPl{
+     background-image:url(../img/florencia-viadana-f74kZNWhfps-unsplash.jpg);
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    
+    height: 720px;
+     background-size: cover;
+}
+#RubrikN{
+     background-image:url(../img/joel-muniz-RLH_Wmlnj2k-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 720px;
+}
+#RubrikT {
+    font-weight:800;
+    font-family: sans-serif;
+        position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ffea00;
+    color: white;
+    font-size: 30px;
+    padding: 2% 5%;
+    text-align: center; 
+}
+
+
+
+img{
+    height: 20%;
+    width: 20%;
+    
+    
+
+
+	
+}
+@media screen and (max-width: 600px) {
+	main {
+		float: none;
+		width: 100%;
+	}
+    
+    #logo {
+    padding: 40px 50%;
+}
+    nav ul li a {
+   font-family: sans-serif;
+    padding: 50px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+    #Rubrik{
+     background-image:url(img/Jlf705Z8-1280x720.jpg);
+    height: 420px
